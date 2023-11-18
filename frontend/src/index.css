@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.item {
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 15vw;
+  border-radius: 20px;
+  background-color: rgb(240, 242, 245);
+  flex-direction: column;
+  font-size: 20px;
+  height: 300px;
+  padding: 50px;
+}
+
+.items {
+  align-content: center;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.each-row-item {}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 10px solid black;
+  border-radius: 50px;
+}
+
+.mentor-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tech-stack {
+  display: inline;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.linkedin-logo {
+  display: inline;
+}
+
+
+
+
+
+
+.header {
+  border-bottom: 2px solid #dc305e;
+}
+
+.logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+}
+
+.header-links {
+  display: inline-block;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  margin: 3vw;
+  font-size: 15px;
+}
+
+.header-button {
+  background-color: #dc305e;
+  color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  border: 3px solid #dc305e;
+}
+
+.heading-text-container {
+  padding: 10vh 10vw 0;
+  width: 80vw;
+  background: linear-gradient(black 0%,
+      black 53%,
+      #EA3363 53%,
+      #EA3363 85%,
+      black 85%,
+      black 100%);
+  text-align: justify;
+
+}
+
+.heading-text {
+  font-size: 12vw;
+  margin: -8vh 5vw 0;
+  font-weight: 700;
+}
+
+.heading-1 {
+  font-size: 11vw;
+}
+
+.heading-2 {
+  font-size: 9vw;
+  text-align: right;
+}
+
+.heading-3 {
+  font-size: 12.18vw;
+}
+
+.subheading-text {
+  font-size: 2vw;
+  margin: 3vh 15vw 20vh 40vw;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.mission-box {
+  height: 10vh;
+  width: 15vw;
+  background-image: linear-gradient(to right, #E63361, black);
+  display: inline-block;
+  margin-left: 25vw;
+  border-radius: 7px;
+}
+
+.our-mission {
+  display: inline-block;
+  font-size: 16.5vh;
+  font-weight: 700;
+  width: 45vw;
+  text-align: justify;
+}
+
+.mission-text {
+  font-size: 2vw;
+  margin: 3vh 15vw 20vh 40vw;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.stats-box {
+  margin: 0 0 10vh 20vw;
+  background-image: linear-gradient(to right, #260b21, #11091C);
+  height: 17vh;
+  width: 17vw;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.stat-heading {
+  font-size: 3vh;
+  padding: 2vh 2vw 0;
+}
+
+.stat-content {
+  font-size: 5vh;
+  margin: 0 2vw 0;
+  font-weight: 700;
+}
+
+.stats-box-2 {
+  margin: 0 0 10vh 5vw;
+}
+
+.features{
+  margin: 0 10vw 10vh 10vw;
+  background-image: linear-gradient(#260A21, #040315);
+  border-radius: 7px;
+}
+
+.features-heading{
+  font-size: 5vw;
+  font-weight: 700;
+  margin-bottom: 5vh;
+  line-height: 5vw;
+  margin: 10vh 10vw;
+}
+
+.further-next-line{
+  margin-left: 17vw;
+}
+
+.feature{
+  margin: 5vh 10vw;
+  padding: 1vh 0;
+  font-size: 4vh;
+  font-weight: 400;
+  border-top: 1px solid #EA3363;
+}
+
+.feature-text{
+  font-size: 2vh;
+  margin: -2vh 10vw;
+  font-weight: 400;
+
+}
+
+.red-box-container {
+  margin: 0 10vw 10vh;
+  background-color: #EA3363;
+  padding: 8vh 13vw 3vh;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.red-box-heading {
+  font-size: 10vh;
+  text-align: center;
+  line-height: 5vw;
+}
+
+.red-box-content {
+  font-size: 4vh;
+  text-align: center;
+  line-height: vw;
+}
+
+.red-box-button {
+  margin: 3vh auto;
+  display: block;
+  background-color: white;
+  color: #EA3363;
+  padding: 1.3vh 1.3vw;
+  border-radius: 4px;
+  border: none;
+  font-weight: 550;
+  font-size: 2vh;
+}
+
+.nft-container {
+  display: flex;
+  padding: 0 10vw 10vh;
+  justify-content: space-between;
+}
+
+.nft-left {}
+
+.nft-right {}
+
+.nft-heading {
+  font-size: 5vw;
+  width: 50vw;
+  line-height: 12vh;
+}
+
+.transpirant {
+  color: black;
+  -webkit-text-stroke: 1px white;
+}
+
+.nft-text {
+  font-size: 2vw;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 5vh 10vw 0;
+  display: flex;
+  justify-content: space-between;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right,
+      black 0%,
+      #EA3363 50%,
+      black 100%) 1;
+}
+
+.footer-section {
+  padding: 0 1vw;
+  margin: 0 2vw;
+}
+
+.footer-info {
+  flex-grow: 1;
+}
+
+.footer-heading {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.footer-text {
+  font-size: 1.2vw;
+  margin: 1vh 0;
+}
+
+.footer-bottom {
+  padding: 2vh 0;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  color: grey;
+}
