@@ -1,20 +1,13 @@
-# Developer Augmentation Hackathon - Top 10 Projects
+# MentorHub: Connecting Developers with Diverse Mentors- DA Hacks Top 10 Teams
 
-## MentorHub: Connecting Developers with Diverse Mentors
+## 
 
-![MentorHub Logo](link_to_logo)
+![Screenshot 2023-11-18 at 11 54 27 PM](https://github.com/ShivankK26/MentorHub-DA-Hacks/assets/115289871/da5d1823-2ec0-4db6-aa37-3e91edc6a0f6)
 
-**Table of Contents:**
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction
 
-MentorHub is an AI-based project developed during the Developer Augmentation Hackathon, where our team secured a position among the top 10 teams at the national level. The project aims to simplify the process of connecting developers with diverse mentors using natural language prompts.
+MentorHub is an AI-based project developed during the [Developer Augmentation Hackathon](https://developeraugmentationhackathon.devfolio.co/), where our team secured a position among the top 10 teams at the national level. The project aims to simplify the process of connecting developers with diverse mentors using natural language prompts.
 
 ## Features
 
