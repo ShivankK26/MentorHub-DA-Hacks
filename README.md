@@ -30,7 +30,7 @@ To get started with MentorHub, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ShivankK26/mentorhub.git
+   git clone https://github.com/ShivankK26/mentorhub-da-hacks.git
    ```
 
 2. Install dependencies:
